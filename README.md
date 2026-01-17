@@ -4,7 +4,7 @@
 
 ## How it Works
 
-The plugin monitors your screenshot directories every 10 seconds. When it detects a new screenshot, it "scrapes" the book title directly from the filename created by KOReader, cleans it up, and moves the file into a dedicated subfolder.
+The plugin monitors your screenshot directories 10 seconds after you take a screenshot. When it detects a new screenshot, it "scrapes" the book title directly from the filename created by KOReader, cleans it up, and moves the file into a dedicated subfolder.
 
 ### The "Pretty Name" Transformation
 The plugin is designed to handle messy Kindle/Calibre filenames by removing technical metadata:
