@@ -4,7 +4,7 @@
 
 ## How it Works
 
-The plugin monitors your screenshot directories every 10 seconds. When it detects a new screenshot, it "scrapes" the book title directly from the filename created by KOReader, cleans it up, and moves the file into a dedicated subfolder.
+The plugin monitors your screenshot directories 10 seconds after you take a screenshot. When it detects a new screenshot, it "scrapes" the book title directly from the filename created by KOReader, cleans it up, and moves the file into a dedicated subfolder.
 
 ### The "Pretty Name" Transformation
 The plugin is designed to handle messy Kindle/Calibre filenames by removing technical metadata:
@@ -13,7 +13,7 @@ The plugin is designed to handle messy Kindle/Calibre filenames by removing tech
 
 ## Features
 
-* **Zero-Touch Automation**: Once installed, it works silently in the background. No manual triggers or menus are required.
+* **Zero-Touch Automation**: Once installed, it works silently when a screenshot is taken. No manual triggers or menus are required.
 * **Intelligent Filename Scraper**: Specifically built for Kindle devices to ensure book detection works even when system globals are unreliable.
 * **Smart Title Formatting**: Automatically removes underscores, file extensions, and trailing version numbers (like `(v1)` or `(79)`).
 * **Multi-Path Support**: Scans all likely Kindle storage locations, including `/mnt/us/koreader/screenshots`, `/mnt/us/screenshots`, and `/mnt/base-us/`.
@@ -29,7 +29,7 @@ The plugin is designed to handle messy Kindle/Calibre filenames by removing tech
 
 ## Troubleshooting
 
-* **First Run**: After taking a screenshot, allow up to 10–15 seconds for the background loop to process the file.
+* **First Run**: After taking a screenshot, allow up to 10–15 seconds for the file to be processed.
 * **Logs**: You can verify the plugin is active by checking the `crash.log` file in your KOReader root directory. Look for:
     `INFO ScreenshotOrganizer: Plugin Initialized (Pretty-Name Scraper)`
 * **Manual Check**: Ensure the plugin is enabled under **Tools** -> **More Tools** -> **Plugin Management** in the KOReader menu.
