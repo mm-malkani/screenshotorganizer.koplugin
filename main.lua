@@ -87,7 +87,11 @@ end
 
 function ScreenshotOrganizer:run()
     self:organize()
-    -- Re-schedule the next run in 10 seconds
+end
+
+-- Schedule run 10 seconds after screenshot
+-- This delay ensures the user can press dialog buttons before the screenshot is moved
+function ScreenshotOrganizer:onScreenshot()
     UIManager:scheduleIn(10, function() self:run() end)
 end
 
