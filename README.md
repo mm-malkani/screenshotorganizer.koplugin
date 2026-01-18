@@ -36,7 +36,7 @@ The plugin is designed to handle messy Kindle/Calibre filenames by removing tech
 
 ## Compatibility
 
-* **Devices**: Optimized for Amazon Kindle (Basic, Paperwhite, Oasis, Scribe), but compatible with any hardware running KOReader.
+* **Devices**: Optimized for Amazon Kindle (Basic, Paperwhite, Oasis, Scribe) and Kobo, but compatible with any hardware running KOReader.
 * **Formats**: Supports screenshots taken from EPUB, PDF, MOBI, AZW3, and DJVU.
 
 ## License
