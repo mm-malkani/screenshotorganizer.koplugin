@@ -71,7 +71,8 @@ function ScreenshotOrganizer:organize()
     local locations = {
         "/mnt/us/koreader/screenshots",
         "/mnt/base-us/koreader/screenshots",
-        "/mnt/us/screenshots"
+        "/mnt/us/screenshots",
+        "/mnt/onboard/.adds/koreader/screenshots"
     }
 
     for _, root in ipairs(locations) do
